@@ -15,6 +15,7 @@
 		7B105B1227FFC62B00EE1896 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B105B1027FFC62B00EE1896 /* Item+CoreDataClass.swift */; };
 		7B105B1327FFC62B00EE1896 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B105B1127FFC62B00EE1896 /* Item+CoreDataProperties.swift */; };
 		7B105B1827FFC70400EE1896 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B105B1727FFC70400EE1896 /* DataController.swift */; };
+		7B105B1A27FFCBFD00EE1896 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B105B1927FFCBFD00EE1896 /* AddItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7B105B1027FFC62B00EE1896 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7B105B1127FFC62B00EE1896 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7B105B1727FFC70400EE1896 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		7B105B1927FFCBFD00EE1896 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				7B105B1427FFC63600EE1896 /* DataModel */,
 				7B105AFF27FE79D200EE1896 /* SnackTrackApp.swift */,
 				7B105B0127FE79D200EE1896 /* ContentView.swift */,
+				7B105B1927FFCBFD00EE1896 /* AddItemView.swift */,
 				7B105B0D27FFBAE100EE1896 /* SnackTrackDataModel.xcdatamodeld */,
 				7B105B0327FE79D200EE1896 /* Assets.xcassets */,
 				7B105B0527FE79D200EE1896 /* Preview Content */,
@@ -159,6 +162,7 @@
 			files = (
 				7B105B0227FE79D200EE1896 /* ContentView.swift in Sources */,
 				7B105B1827FFC70400EE1896 /* DataController.swift in Sources */,
+				7B105B1A27FFCBFD00EE1896 /* AddItemView.swift in Sources */,
 				7B105B0F27FFBAE100EE1896 /* SnackTrackDataModel.xcdatamodeld in Sources */,
 				7B105B1227FFC62B00EE1896 /* Item+CoreDataClass.swift in Sources */,
 				7B105B0027FE79D200EE1896 /* SnackTrackApp.swift in Sources */,

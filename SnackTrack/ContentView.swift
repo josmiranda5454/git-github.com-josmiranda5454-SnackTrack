@@ -9,8 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            ZStack {
+                VStack {
+                    Spacer()
+                    HStack {
+                        Spacer()
+                        Button {
+                        } label: {
+                            Image(systemName: "plus")
+                                .padding()
+                                .background(.black.opacity(0.5))
+                                .foregroundColor(.white)
+                                .font(.title)
+                                .clipShape(Circle())
+                                .padding(.trailing)
+                        }
+                    }
+                }
+            }
+            .navigationTitle("SnackTrack")
+        }
     }
 }
 

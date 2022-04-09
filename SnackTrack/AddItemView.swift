@@ -15,6 +15,12 @@ struct AddItemView: View {
     @State private var itemDescription = ""
     @State private var type: Int16 = 0
     
+    var saveEnabled: Bool {
+        if name.isEmpty {
+            return false
+        }
+        return true
+    }
     var body: some View {
         NavigationView {
             Form {
@@ -40,10 +46,15 @@ struct AddItemView: View {
                         try? moc.save()
                         dismiss()
                     }
+                    .disabled(!saveEnabled)
                 }
             }
             .navigationTitle("Add Item")
-            
+            .toolbar {
+                Button("Cancel", role: .cancel) {
+                    dismiss()
+                }
+            }
         }
     }
 }

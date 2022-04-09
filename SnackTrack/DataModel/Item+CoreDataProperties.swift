@@ -30,6 +30,10 @@ extension Item {
     var wrappedItemDescription: String {
         itemDescription ?? ""
     }
+    
+    var formattedDate: String {
+        expirationDate?.formatted(date: .abbreviated, time: .omitted) ?? "N/A"
+    }
 
 }
 

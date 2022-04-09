@@ -25,7 +25,7 @@ struct ContentView: View {
                                     .font(.subheadline)
                             }
                             Spacer()
-                            Text("something")
+                            Text(item.formattedDate)
                         }
                     }
                 }

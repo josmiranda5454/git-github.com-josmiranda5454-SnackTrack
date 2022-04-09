@@ -17,7 +17,16 @@ struct ContentView: View {
             ZStack {
                 List {
                     ForEach(items) { item in
-                        Text(item.wrappedName)
+                        HStack {
+                            VStack(alignment: .leading) {
+                                Text(item.wrappedName)
+                                    .font(.title2)
+                                Text(item.wrappedItemDescription)
+                                    .font(.subheadline)
+                            }
+                            Spacer()
+                            Text("something")
+                        }
                     }
                 }
                 VStack {

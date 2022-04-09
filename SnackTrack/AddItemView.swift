@@ -24,6 +24,9 @@ struct AddItemView: View {
                 Section("Description") {
                     TextEditor(text: $itemDescription)
                 }
+                Section("Date of Expiration") {
+                    DatePicker("Expiration Date", selection: $expirationDate, displayedComponents: .date)
+                }
                 Section {
                     Button("Save") {
                         let item = Item(context: moc)

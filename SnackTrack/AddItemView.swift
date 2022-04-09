@@ -19,7 +19,7 @@ struct AddItemView: View {
         NavigationView {
             Form {
                 Section {
-                    TextField("Item", text: $name)
+                    TextField("Item Name", text: $name)
                 }
                 Section("Description") {
                     TextEditor(text: $itemDescription)
